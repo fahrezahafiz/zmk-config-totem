@@ -25,10 +25,11 @@
 #define SYM     6
 
 &mt {
-  quick-tap-ms = <120>;
-  global-quick-tap;
-  flavor = "tap-preferred";
-  tapping-term-ms = <200>;
+        compatible = "zmk,behavior-hold-tap";
+        quick-tap-ms = <120>;
+        global-quick-tap;
+        flavor = "tap-preferred";
+        tapping-term-ms = <200>;
 };
 
 / {
