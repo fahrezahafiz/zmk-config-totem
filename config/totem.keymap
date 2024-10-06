@@ -32,6 +32,10 @@
         tapping-term-ms = <200>;
 };
 
+&caps_word {
+        continue-list = <UNDERSCORE MINUS>;
+};
+
 / {
     combos {
             compatible = "zmk,combos";
